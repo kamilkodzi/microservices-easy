@@ -20,3 +20,5 @@ kubectl get deployments
 kubectl describe deployment \[depl name\]
 kubectl apply -f \[config file name\]
 kubectl delete deployment \[depl_name\]
+
+kubectl rollout restart deployment \[depl_name\]
