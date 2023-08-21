@@ -22,3 +22,6 @@ kubectl apply -f \[config file name\]
 kubectl delete deployment \[depl_name\]
 
 kubectl rollout restart deployment \[depl_name\]
+
+
+skaffold dev - to start cluster
