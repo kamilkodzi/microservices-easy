@@ -38,3 +38,9 @@
 
 
 `skaffold dev - to start cluster`
+
+# Creating secrets for development purposes:
+
+`kubectl create secret generic jwt-secret --from-literal=JWT_KEY=qwerty`
+
+`kubectl get secrets`
