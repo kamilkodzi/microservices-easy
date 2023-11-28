@@ -25,7 +25,14 @@
 
 `kubectl describe pod [pod_name]`
 
-# Good to know k8s's deploymentscommands
+# Good to know k8s's services commands
+`kubectl get namespace`
+
+`kubectl get services`
+
+`kubectl get services -n ingress-nginx`
+
+# Good to know k8s's deployments commands
 `kubectl get deployments`
 
 `kubectl describe deployment [depl name]`
@@ -35,7 +42,6 @@
 `kubectl delete deployment [depl_name]`
 
 `kubectl rollout restart deployment [depl_name]`
-
 
 `skaffold dev - to start cluster`
 
